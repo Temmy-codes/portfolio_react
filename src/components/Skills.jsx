@@ -12,6 +12,7 @@ export default function Skills() {
             <li>React & Next.js</li>
             <li>Responsive Web Design</li>
             <li>Git & GitHub</li>
+            <li>API integration</li>
           </ul>
         </div>
 
