@@ -33,34 +33,17 @@ export default function Portfolio() {
         </ul>
         </div>
 
-        <div className="card">
-          <a href="https://user-profile-directory.netlify.app/" target="_blank" rel="noreferrer">
-            <img src="https://th.bing.com/th/id/OIP.bYhu77NcI-0LtdJaKk2o4QHaE8?w=245&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Project 6"/>
-            <h3>User Profile Directory App</h3>
-            <p> A dynamic React application for displaying and managing user profile data from external APIs. </p>
-        
-        <ul className="project-bullets">
-        <li>Fetched and displayed user profile data from external APIs</li>
-        <li>Built reusable profile card components for scalability</li>
-        <li>Implemented search and filtering for improved data exploration</li>
-        <li>Handled loading and error states for better user experience</li>
-        <li>Designed responsive UI for mobile and desktop users</li>
-        </ul>
+         <div className="card">
+          <a href="https://www.stayversepro.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.stayversepro.com/_next/image?url=%2Flogo-white.png&w=256&q=75" alt="Project 3"/>
+            <h3>Software Engineer Intern - STAYVERSE through Afriment Internship Program</h3>
+            <p>Contributed to the Stayverse web application by improving SEO structure and optimizing key pages for better search visibility and user discovery.</p>
           </a>
-        </div>
-
-        <div className="card">
-          <img src="https://media.journoportfolio.com/users/427887/images/04f10bf2-ebfd-46f4-a945-8c8c272fa8d5_max-600.jpeg" alt="Yoga"/>
-          <h3>Yoga Instruction & Wellness Program</h3>
-          <p>Guided yoga sessions focused on flexibility, mindfulness, and overall wellness.</p>
-
           <ul className="project-bullets">
-          <li>Designed guided yoga programs for flexibility and strength</li>
-          <li>Led group and one-on-one wellness sessions</li>
-          <li>Incorporated breathwork and mindfulness techniques</li>
-          <li>Adapted sessions for beginner to advanced levels</li>
-          <li>Focused on injury prevention and safe alignment</li>
-          </ul>
+         <li>Improved website SEO by adding relevant keywords and metadata across core sections of the application.</li>
+         <li>Optimized content in Herosection.tsx, WhyChooseUs.tsx, and the All-in-One Travel & Hospitality Companion.</li>
+         <li>Updated layout.tsx to support consistent SEO structure across pages.</li>
+        </ul>
         </div>
 
         <div className="card">
@@ -81,6 +64,19 @@ export default function Portfolio() {
           </ul>
         </div>
         
+        <div className="card">
+          <img src="https://media.journoportfolio.com/users/427887/images/04f10bf2-ebfd-46f4-a945-8c8c272fa8d5_max-600.jpeg" alt="Yoga"/>
+          <h3>Yoga Instruction & Wellness Program</h3>
+          <p>Guided yoga sessions focused on flexibility, mindfulness, and overall wellness.</p>
+
+          <ul className="project-bullets">
+          <li>Designed guided yoga programs for flexibility and strength</li>
+          <li>Led group and one-on-one wellness sessions</li>
+          <li>Incorporated breathwork and mindfulness techniques</li>
+          <li>Adapted sessions for beginner to advanced levels</li>
+          <li>Focused on injury prevention and safe alignment</li>
+          </ul>
+        </div>
 
         <div className="card">
          <img src="https://media.journoportfolio.com/users/427887/images/69e26a20-1aea-4b32-9828-e03ce1995789_max-600.jpeg" alt="Lab"/>
@@ -94,6 +90,37 @@ export default function Portfolio() {
        <li>Documented and reported findings for clinical decision-making</li>
        </ul>
        </div>
+
+
+         <div className="card">
+          <a href="" target="_blank" rel="noreferrer">
+            <img src="https://www.afriment.com/_next/image?url=%2Fafriment-logo.jpg&w=1920&q=75" alt="Project 4"/>
+            <h3>Content Creator - AFRIMENT</h3>
+            <p>Created weekly content for Afriment's AI Automation and Workflow Programme.</p>
+          </a>
+          <ul className="project-bullets">
+         <li>Created weekly content on Afriment's AI Automation and Workflow Programme.</li>
+         <li>Worked with provided script to deliver educational AI- focused content.
+         <li>Communicated AI automation concepts clearly for a general audience.</li>
+         </li>
+        </ul>
+        </div>
+
+        <div className="card">
+          <a href="https://user-profile-directory.netlify.app/" target="_blank" rel="noreferrer">
+            <img src="https://th.bing.com/th/id/OIP.bYhu77NcI-0LtdJaKk2o4QHaE8?w=245&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Project 6"/>
+            <h3>User Profile Directory App</h3>
+            <p> A dynamic React application for displaying and managing user profile data from external APIs. </p>
+        
+        <ul className="project-bullets">
+        <li>Fetched and displayed user profile data from external APIs</li>
+        <li>Built reusable profile card components for scalability</li>
+        <li>Implemented search and filtering for improved data exploration</li>
+        <li>Handled loading and error states for better user experience</li>
+        <li>Designed responsive UI for mobile and desktop users</li>
+        </ul>
+          </a>
+        </div>
        </div>
 
       <div className="card">

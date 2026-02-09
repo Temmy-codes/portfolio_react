@@ -10,11 +10,14 @@ export default function About() {
         </div>
         <div className="about-text">
           <p>God’s Own ❤️</p>
-          <p>My name is Mary Esso, I am passionate about combining my knowledge in health, wellness, technology, and content creation.</p>
-          <p>With a strong foundation in Medical Biochemistry and over two years of experience as a Laboratory Scientist, I bring analytical and scientific rigor to all my work.</p>
+          <p>My name is Mary Esso, I'm a Multidisciplinary professional with experience across healthcare, wellness and technology.</p>
+          <p>I have worked as a Frontend Developer building responsive, user-focused websites. I translate UI/UX designs into functional interfaces,
+           write clean and efficient code with modern technologies like React and Next.js, optimize performance, and ensure smooth interaction with back-end systems through APIs.</p>
+          <p1>I have worked as a Content Creator, growing engaged online communities, producing and editing reels, shorts, and videos in both short and long form formats.</p1>
+          <p1>As a Laboratory Scientist, i conducted routine and advanced diagnostic test, interpreted results, and communicated findings to doctors to support treatment decisions.</p1>
           <p>As a Yoga Instructor, I guide individuals on their journey to physical and mental well-being. My practice focuses on creating a balanced environment where students can explore the connection between body and mind through breath and movement.</p>
-          <p>Additionally, as a Front-end Developer, I build responsive, accessible web applications that adapt seamlessly across devices. I translate UI/UX designs into functional interfaces, write clean and efficient code with modern technologies like React and Next.js, optimize performance, and ensure smooth interaction with back-end systems through APIs.</p>
-          <p>Beyond that, I am also a skilled video editor and content creator, producing engaging reels, shorts, and videos in both short-form and long-form formats.</p>
+          <p>Additionally, i also have experience supporting U.S healthcare members, handling inquiries with clarity, empathy, and professionalism.</p>
+          <p>I bring strong communication, problem solving, and technical skills and am commited to continous growth across every field i work in.</p>
           <p>So yeah, that’s a brief summary about me 😊</p>
         </div>
       </div>
