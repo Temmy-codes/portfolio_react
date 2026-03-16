@@ -11,11 +11,11 @@ export default function About() {
         <div className="about-text">
           <p>God’s Own ❤️</p>
           <p>My name is Mary Esso, I'm a Multidisciplinary professional with experience across healthcare, wellness and technology.</p>
-          <p>I have worked as a Frontend Developer building responsive, user-focused websites. I translate UI/UX designs into functional interfaces,
+          <p>I have worked as a Frontend Developer building responsive, user-focused websites, collaborated with teams on clients project. I translate UI/UX designs into functional interfaces,
            write clean and efficient code with modern technologies like React and Next.js, optimize performance, and ensure smooth interaction with back-end systems through APIs.</p>
-          <p1>I have worked as a Content Creator, growing engaged online communities, producing and editing reels, shorts, and videos in both short and long form formats.</p1>
+          <p1>I have worked as a Social Media Strategist and Content Creator growing engaged online communities, producing and editing reels, shorts, and videos in both short and long form formats, helping brands and individuals grow thier online presence authentically.</p1>
           <p1>As a Laboratory Scientist, i conducted routine and advanced diagnostic test, interpreted results, and communicated findings to doctors to support treatment decisions.</p1>
-          <p>As a Yoga Instructor, I guide individuals on their journey to physical and mental well-being. My practice focuses on creating a balanced environment where students can explore the connection between body and mind through breath and movement.</p>
+          <p>As a Yoga Instructor, I guide individuals in improving flexibilty, strength and mindfulness. My practice focuses on creating a balanced environment where students can explore the connection between body and mind through breath and movement.</p>
           <p>Additionally, i also have experience supporting U.S healthcare members, handling inquiries with clarity, empathy, and professionalism.</p>
           <p>I bring strong communication, problem solving, and technical skills and am commited to continous growth across every field i work in.</p>
           <p>So yeah, that’s a brief summary about me 😊</p>

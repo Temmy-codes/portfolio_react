@@ -8,10 +8,12 @@ export default function Services() {
         <div className="service-card">
           <h3>Web Development</h3>
           <ul>
-            <li>Responsive website design and development</li>
-            <li>Custom landing pages and portfolios</li>
+            <li>Frontend Development</li>
+            <li>UI/UX Design Implementation</li>
+            <li>Landing pages and Portfolio Sites</li>
             <li>Performance optimization (speed, SEO, accessibility)</li>
             <li>API integration with React & Next.js</li>
+            <li>Website Maintenance & Updates</li>
             <li>Deployment</li>
           </ul>
         </div>
@@ -19,20 +21,24 @@ export default function Services() {
         <div className="service-card">
           <h3>Yoga Classes</h3>
           <ul>
-            <li>Private and group yoga sessions</li>
-            <li>Virtual classes for all levels</li>
+            <li>Group Yoga Sessions</li>
+            <li>Private / One-on-One Sessions</li>
+            <li>Yoga for Beginners</li>
+            <li>Advanced Yoga Flow</li>
             <li>Wellness routines for flexibility & strength</li>
             <li>Mindfulness and guided relaxation</li>
           </ul>
         </div>
 
         <div className="service-card">
-          <h3>Content Creation</h3>
+          <h3>Social Media Strategist / Content Creation</h3>
           <ul>
-            <li>Engaging social media content (shorts, reels)</li>
-            <li>Professional video editing</li>
-            <li>Content strategy and scripting</li>
-            <li>Yoga, self-love, wellness, and tech-focused content</li>
+            <li>Social Media Influencer Services</li>
+            <li>Brand Collaboration & UGC Creation</li>
+            <li>Short and Long Format Video Creation</li>
+            <li>Social Media Management</li>
+            <li>Professional Video Editing</li>
+            <li>Content Strategy and Analytics</li>
           </ul>
         </div>
       </div>

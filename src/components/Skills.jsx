@@ -20,8 +20,10 @@ export default function Skills() {
           <h3>Editing & Content Tools</h3>
           <ul>
             <li>Video Editing</li>
-            <li>Content Strategy & Planning</li>
-            <li>Social Media Optimization</li>
+            <li>Content Strategy</li>
+            <li>Social Media Growth</li>
+            <li>Audience Engagement</li>
+            <li>Research</li>
           </ul>
         </div>
 

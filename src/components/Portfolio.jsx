@@ -67,7 +67,7 @@ export default function Portfolio() {
         <div className="card">
           <img src="https://media.journoportfolio.com/users/427887/images/04f10bf2-ebfd-46f4-a945-8c8c272fa8d5_max-600.jpeg" alt="Yoga"/>
           <h3>Yoga Instruction & Wellness Program</h3>
-          <p>Guided yoga sessions focused on flexibility, mindfulness, and overall wellness.</p>
+          <p>Guided yoga sessions focused on flexibility, strength, mindfulness, and overall wellness.</p>
 
           <ul className="project-bullets">
           <li>Designed guided yoga programs for flexibility and strength</li>
@@ -95,13 +95,14 @@ export default function Portfolio() {
          <div className="card">
           <a href="" target="_blank" rel="noreferrer">
             <img src="https://www.afriment.com/_next/image?url=%2Fafriment-logo.jpg&w=1920&q=75" alt="Project 4"/>
-            <h3>Content Creator - AFRIMENT</h3>
-            <p>Created weekly content for Afriment's AI Automation and Workflow Programme.</p>
+            <h3>Social Media Manager / Content Creator - AFRIMENT</h3>
+            <p>Develop and execute content strategies to grow brand visibility and engagement across social platforms  </p>
           </a>
           <ul className="project-bullets">
-         <li>Created weekly content on Afriment's AI Automation and Workflow Programme.</li>
-         <li>Worked with provided script to deliver educational AI- focused content.
-         <li>Communicated AI automation concepts clearly for a general audience.</li>
+         <li>Collaborated with team to plan and schedule content across Afriment social media platforms.</li>
+         <li>Produced UGC to support marketing campaigns and promotion.
+         <li>Monitored analytics and engagement metrics.</li>
+         <li>Supported ovevrall brand growth and online presence through consistent content creation.</li>
          </li>
         </ul>
         </div>
