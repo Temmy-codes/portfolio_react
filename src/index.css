@@ -187,31 +187,12 @@ h2 {
   animation: glow 2s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
-  from {
-    text-shadow: 
-      0 0 5px #fff,
-      0 0 10px #ff9900,
-      0 0 20px #ff9900,
-      0 0 40px #ff9900,
-      0 0 80px #ff9900;
-  }
-  to {
-    text-shadow: 
-      0 0 10px #fff,
-      0 0 20px #ffb84d,
-      0 0 30px #ffcc66,
-      0 0 60px #ffcc66,
-      0 0 100px #ffcc66;
-  }
-}
-
 .home-text p {
   color: #ccc;
   font-size: 1.1rem;
   margin-top: 0.5rem;
   animation: shimmer 3s linear infinite;
-  background: linear-gradient(90deg, #ff9900, #fff, #ff9900);
+  background: linear-gradient(90deg, #ff9900, #ff9900);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200%;
@@ -344,7 +325,6 @@ h2 {
     45deg,
     #ff9900,
     #ff00ff,
-    #00ffff,
     #ff9900
   );
   background-size: 400%;

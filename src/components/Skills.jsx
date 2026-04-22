@@ -22,7 +22,7 @@ export default function Skills() {
             <li>Video Editing</li>
             <li>Content Strategy</li>
             <li>Social Media Growth</li>
-            <li>Audience Engagement</li>
+            <li>Audience Engagement & Analytics</li>
             <li>Research</li>
           </ul>
         </div>

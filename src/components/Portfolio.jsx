@@ -5,38 +5,24 @@ export default function Portfolio() {
     <div className="portfolio-section">
       <h2>Projects and Experiences</h2>
       <div className="portfolio-cards">
-        <div className="card">
-            <img src="https://th.bing.com/th/id/OIP.lXZAzz2UVBpOEqQkN-T3GAHaD4?w=320&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Project 1"/>
-            <h3>Next.Js Portfolio Website</h3>
-            <p>A modern and responsive portfolio website built with Next.js, designed to showcase professional projects, skills, and personal branding. Optimized for fast loading, mobile-friendly design, and SEO.</p>
-          
-          <ul className="projects-bullets">
-          <li>Built the portfolio using Next.js for improved performance and SEO</li>
-          <li>Implemented dynamic routing and reusable layout components</li>
-          <li>Optimized images and assets for faster load times</li>
-          <li>Designed a fully responsive layout for all screen sizes</li>
-          </ul>
-         
-        </div>
 
         <div className="card">
-          <a href="https://temmyyogaclass.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://tiktok.com/@temmy.___" target="_blank" rel="noreferrer">
             <img src="https://th.bing.com/th/id/OSK.HEROYmvwKsKVGQVwv_DDW_QEi9acLIb4iSpBACZUogzMg0Y?w=384&h=228&c=1&rs=2&o=6&cb=thwsc4&pid=SANGAM" alt="Project 3"/>
-            <h3>Yoga Class Registration Platform</h3>
-            <p>A full registration system for managing yoga class signups and student data.</p>
+          <h3>Yoga Content Growth & Audience Building (TikTok)</h3>
+            <p>Built a TikTok Audience of 11.4K+ Followers and generated 4.1M+ views.</p>
           </a>
           <ul className="project-bullets">
-         <li>Built a registration form to collect student details</li>
-         <li>Implemented client-side form validation</li>
-         <li>Structured data for easy class and student management</li>
-         <li>Optimized user flow for smooth onboarding</li>
+         <li>Built a TikTok Audience of 11.4K+ Followers and generated 4.1M+ views through strategic content creation on flexibility, strength, and mindfulness and overall wellness.</li>
+         <li>Plan, script, film, and edit short-form videos</li>
+         <li>Engage with audience and optimize content based on performance insights</li>
         </ul>
         </div>
 
          <div className="card">
           <a href="https://www.stayversepro.com/" target="_blank" rel="noreferrer">
             <img src="https://www.stayversepro.com/_next/image?url=%2Flogo-white.png&w=256&q=75" alt="Project 3"/>
-            <h3>Software Engineer Intern - STAYVERSE through Afriment Internship Program</h3>
+            <h3>Software Engineer Intern - STAYVERSE</h3>
             <p>Contributed to the Stayverse web application by improving SEO structure and optimizing key pages for better search visibility and user discovery.</p>
           </a>
           <ul className="project-bullets">
@@ -52,14 +38,9 @@ export default function Portfolio() {
           <h3>E-COMMERCE website with Cart Functionality </h3>
           <p>TEMMY yoga store, an e-commerce interface built to showcase yoga products and manage shopping cart interactions.</p>
           </a>
-          
           <ul className="project-bullets">        
           <li>Implemented add-to-cart and remove-from-cart functionality</li>
-          <li>Managed cart state and item quantity updates</li>
-          <li>Calculated cart totals dynamically</li>
-          <li>Designed product cards and shopping flow UI</li>
           <li>Integrated Selar product links into frontend interface</li>
-          <li>Designed product listing pages for digital products</li>
           <li>Built call-to-action flows for product purchases</li>
           </ul>
         </div>
@@ -91,7 +72,6 @@ export default function Portfolio() {
        </ul>
        </div>
 
-
          <div className="card">
           <a href="" target="_blank" rel="noreferrer">
             <img src="https://www.afriment.com/_next/image?url=%2Fafriment-logo.jpg&w=1920&q=75" alt="Project 4"/>
@@ -100,11 +80,18 @@ export default function Portfolio() {
           </a>
           <ul className="project-bullets">
          <li>Collaborated with team to plan and schedule content across Afriment social media platforms.</li>
-         <li>Produced UGC to support marketing campaigns and promotion.
+         <li>Produced UGC to support marketing campaigns and promotion.</li>
          <li>Monitored analytics and engagement metrics.</li>
-         <li>Supported ovevrall brand growth and online presence through consistent content creation.</li>
-         </li>
         </ul>
+        </div>
+
+        <div className="card">
+        <a href="https://front-end-authentication.netlify.app/" target="_blank" rel="noreferrer">
+        <img src="https://th.bing.com/th?q=Authentication+App+with+Black+Background&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&pid=InlineBlock&rm=3&mkt=en-WW&cc=NG&setlang=en&adlt=moderate&t=1&mw=247"/>
+          <h3>Frontend Authentication </h3>
+          <p>A frontend authentication app built with react that allows users to sign in or create an account, using their email and password.</p>
+          It includes a forget password option, a dark/light mode toggle for better user experience.
+        </a>  
         </div>
 
         <div className="card">
@@ -112,29 +99,16 @@ export default function Portfolio() {
             <img src="https://th.bing.com/th/id/OIP.bYhu77NcI-0LtdJaKk2o4QHaE8?w=245&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Project 6"/>
             <h3>User Profile Directory App</h3>
             <p> A dynamic React application for displaying and managing user profile data from external APIs. </p>
-        
+         </a>
         <ul className="project-bullets">
         <li>Fetched and displayed user profile data from external APIs</li>
         <li>Built reusable profile card components for scalability</li>
         <li>Implemented search and filtering for improved data exploration</li>
         <li>Handled loading and error states for better user experience</li>
-        <li>Designed responsive UI for mobile and desktop users</li>
         </ul>
-          </a>
         </div>
        </div>
-
-      <div className="card">
-        <a href="https://front-end-authentication.netlify.app/" target="_blank" rel="noreferrer">
-        <img src="https://th.bing.com/th?q=Authentication+App+with+Black+Background&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&pid=InlineBlock&rm=3&mkt=en-WW&cc=NG&setlang=en&adlt=moderate&t=1&mw=247"/>
-          <h3>Frontend Authentication </h3>
-          <p>A frontend authentication app built with react that allows users to sign in or create an account, using their email and password.</p>
-          It includes a forget password option, a dark/light mode toggle for better user experience.
-        </a>
-          
-        </div>
-
-
+       
       <a className="view-more" href="https://github.com/Temmy-codes" target="_blank" rel="noreferrer">View More</a>
     </div>
   );
