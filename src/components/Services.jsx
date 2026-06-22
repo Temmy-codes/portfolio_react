@@ -51,10 +51,10 @@ function Services() {
             <div className="exp-role">Content Creator</div>
             <div className="exp-company">Self-Employed · 2023 – Present</div>
             <ul className="exp-points">
-              <li>Built TikTok audience of 12K+ followers and 4.5M+ views</li>
+              <li>Built TikTok audience of 15K+ followers and 4.5M+ views</li>
               <li>Plan, script, film, and edit short-form videos consistently</li>
               <li>Engage audience and optimise content based on performance insights</li>
-              <li>Instagram: 2.3K+ followers · YouTube: 300+ subscribers</li>
+              <li>Instagram: 2.1K+ followers · YouTube: 400+ subscribers</li>
             </ul>
           </div>
         </div>
@@ -72,7 +72,7 @@ function Services() {
         </div>
 
         <div className="platform-row">
-          {['TikTok — 12K followers', 'Instagram — 2.3K followers', 'YouTube — 300+ subscribers',
+          {['TikTok — 15K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
             'Video Editing — CapCut & Canva', 'UGC Creation', 'Content Strategy', 'Analytics & Growth'].map(p => (
             <span className="platform-pill" key={p}>{p}</span>
           ))}
@@ -93,8 +93,8 @@ function Services() {
         </p>
         <div className="tiktok-stats">
           <div className="tiktok-stat"><div className="tiktok-num">4.5M+</div><div className="tiktok-label">Total Views</div></div>
-          <div className="tiktok-stat"><div className="tiktok-num">12K</div><div className="tiktok-label">TikTok Followers</div></div>
-          <div className="tiktok-stat"><div className="tiktok-num">794K</div><div className="tiktok-label">Top Video Views</div></div>
+          <div className="tiktok-stat"><div className="tiktok-num">15K+</div><div className="tiktok-label">TikTok Followers</div></div>
+          <div className="tiktok-stat"><div className="tiktok-num">825K+</div><div className="tiktok-label">Top Video Views</div></div>
         </div>
         <div className="yoga-grid">
           {yogaCards.map(c => (
