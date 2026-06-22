@@ -1,6 +1,6 @@
 const viralVideos = [
   { title: 'How to Improve Hip Flexibility', views: '812K+ views. 16K Likes' },
-  { title: 'How to Do a Split for Complete Beginners', views: '638K+ views · 37K likes' },
+  { title: 'How to Do a Split for Complete Beginners', views: '638K+ views · 37K likes', url: 'https://vt.tiktok.com/ZSCJrxcJb/' },
   { title: 'Kegel Yoga Routine', views: '465K+ views. 21k Likes' },
   { title: 'Kegel Yoga (Beginner Focus)', views: '273K+ views · 39K likes' },
   { title: '2 Yoga Poses for Lower Back Pain', views: '214K+ views. 11k Likes' },
