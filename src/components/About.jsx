@@ -31,7 +31,7 @@ function About() {
         </p>
         <p className="about-text">
           As a <span className="about-highlight">Content Creator & Social Media Strategist</span>, I've grown
-          an engaged online community of 12K+ TikTok followers and 4.5M+ views, producing and editing
+          an engaged online community of 17K+ TikTok followers and 4.5M+ views, producing and editing
           short-form videos that help brands and individuals grow authentically.
         </p>
         <p className="about-text">
