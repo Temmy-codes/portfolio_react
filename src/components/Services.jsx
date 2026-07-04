@@ -51,7 +51,7 @@ function Services() {
             <div className="exp-role">Content Creator</div>
             <div className="exp-company">Self-Employed · 2023 – Present</div>
             <ul className="exp-points">
-              <li>Built TikTok audience of 15K+ followers and 4.5M+ views</li>
+              <li>Built TikTok audience of 17K+ followers and 4.5M+ views</li>
               <li>Plan, script, film, and edit short-form videos consistently</li>
               <li>Engage audience and optimise content based on performance insights</li>
               <li>Instagram: 2.1K+ followers · YouTube: 400+ subscribers</li>
