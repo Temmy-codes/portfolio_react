@@ -72,7 +72,7 @@ function Services() {
         </div>
 
         <div className="platform-row">
-          {['TikTok — 15K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
+          {['TikTok — 17K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
             'Video Editing — CapCut & Canva', 'UGC Creation', 'Content Strategy', 'Analytics & Growth'].map(p => (
             <span className="platform-pill" key={p}>{p}</span>
           ))}
