@@ -7,7 +7,7 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-tag">Available for hire · Lagos, Nigeria · Remote</div>
-        <h1>I Build.<br /><em>I Teach.</em><br />I Create.</h1>
+        <h1>Medical Biochemist.<br /><em>Frontend Developer.</em><br />Yoga Instructor.</h1>
         <p className="hero-sub">
           Frontend Developer, building responsive websites and web applications. Yoga Instructor,
           helping individuals in improving flexibility, strength and mindfulness. Social Media Strategist, 
