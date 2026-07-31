@@ -7,7 +7,7 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-tag">Available for hire · Lagos, Nigeria · Remote</div>
-        <h1>I Build.<br /><em>I Teach.</em><br />I Create.</h1>
+        <h1>Frontend Developer.<br /><em>Yoga Instructor.</em><br />Social Media Strategist.</h1>
         <p className="hero-sub">
           Frontend Developer, building responsive websites and web applications. Yoga Instructor,
           helping individuals in improving flexibility, strength and mindfulness. Social Media Strategist, 
@@ -23,10 +23,10 @@ function Home() {
           </a>
         </div>
         <div className="hero-stats">
-          <div><div className="stat-num">4.5M+</div><div className="stat-label">TikTok Views</div></div>
+          <div><div className="stat-num">18K+</div><div className="stat-label">TikTok Followers</div></div>
           <div><div className="stat-num">5+</div><div className="stat-label">Live Projects</div></div>
           <div><div className="stat-num">2</div><div className="stat-label">Years Coding</div></div>
-          <div><div className="stat-num">4+</div><div className="stat-label">Years Teaching</div></div>
+          <div><div className="stat-num">5+</div><div className="stat-label">Years in Yoga</div></div>
         </div>
       </section>
       <div className="section-divider">

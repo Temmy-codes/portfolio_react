@@ -65,27 +65,43 @@ body {
 }
 
 /* NAV */
-nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 1.2rem 3rem;
-  background: var(--nav-bg);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  transition: background 0.3s;
-}
+
 .nav-logo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem; letter-spacing: 0.02em;
+  font-size:2rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.hamburger {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
   color: var(--text);
 }
-.nav-links { display: flex; gap: 2rem; align-items: center; }
-.nav-links a {
-  color: var(--gray); text-decoration: none;
-  font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase;
-  transition: color 0.3s;
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 61px;
+  left: 0;
+  right: 0;
+  background: var(--nav-bg);
+  backdrop-filter: blur(12px);
+  padding: 2rem 3rem;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  z-index: 99;
 }
-.nav-links a:hover { color: var(--text); }
+
+.nav-links.open {
+  display: flex;
+}
 
 /* THEME TOGGLE */
 .theme-toggle {
@@ -121,7 +137,7 @@ nav {
 }
 .hero h1 {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-size: clamp(2.9rem, 6vw, 4rem);
   line-height: 1.0; font-weight: 900;
   color: var(--text);
   opacity: 0; animation: fadeUp 0.8s 0.4s forwards;
@@ -514,11 +530,18 @@ footer span { font-size: 0.8rem; color: var(--gray); font-family: 'DM Mono', mon
 
 @media (max-width: 768px) {
   nav { padding: 1rem 1.5rem; }
-  .nav-links { gap: 1rem; }
-  .nav-links a { font-size: 0.75rem; }
+
+  .hamburger {
+    display: block;
+  }
+
+
+  .nav-links a { font-size: 0.85rem; }
+
   .hero, .about-section, .portfolio-section, .content-section,
   .services-section, .skills-section, .yoga-section,
   .testimonials, .contact-section { padding-left: 1.5rem; padding-right: 1.5rem; }
+
   .hero-stats { gap: 1.5rem; }
   .yoga-grid { grid-template-columns: 1fr; }
   .tiktok-stats { grid-template-columns: 1fr; }

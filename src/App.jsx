@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import DevPage from "./pages/DevPage";
+import ContentPage from "./pages/ContentPage";
+import YogaPage from "./pages/YogaPage";
+import AboutPage from "./pages/AboutPage";
+import Contact from "./components/Contact";
 import "./App.css";
 
 function App() {
@@ -23,17 +23,18 @@ function App() {
   const toggleTheme = () => setDarkMode(!darkMode);
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
-      <Home />
-      <About />
-      <Portfolio />
-      <Services />
-      <Skills />
-      <Testimonials />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dev" element={<DevPage />} />
+        <Route path="/content" element={<ContentPage />} />
+        <Route path="/yoga" element={<YogaPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

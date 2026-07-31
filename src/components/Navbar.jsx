@@ -1,18 +1,25 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 function Navbar({ darkMode, toggleTheme }) {
-  const scrollTo = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav>
-      <div className="nav-logo">Mary Esso</div>
-      <div className="nav-links">
-        <a href="#dev" onClick={e => { e.preventDefault(); scrollTo('dev'); }}>Dev</a>
-        <a href="#content" onClick={e => { e.preventDefault(); scrollTo('content'); }}>Content</a>
-        <a href="#yoga" onClick={e => { e.preventDefault(); scrollTo('yoga'); }}>Yoga</a>
-        <a href="#contact" onClick={e => { e.preventDefault(); scrollTo('contact'); }}>Contact</a>
+      <Link to="/" className="nav-logo">Mary Esso</Link>
+
+      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? '✕' : '☰'}
+      </button>
+
+      <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
+        <Link to="/dev" onClick={() => setMenuOpen(false)}>Dev</Link>
+        <Link to="/content" onClick={() => setMenuOpen(false)}>Content</Link>
+        <Link to="/yoga" onClick={() => setMenuOpen(false)}>Yoga with Temmy</Link>
+        <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+        <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         <button className="theme-toggle" onClick={toggleTheme}>
-          {darkMode ? ' Light' : ' Dark'}
+          {darkMode ? 'Light' : 'Dark'}
         </button>
       </div>
     </nav>
