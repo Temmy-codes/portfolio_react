@@ -121,7 +121,7 @@ nav {
 }
 .hero h1 {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2.0rem, 8vw, 7rem);
+  font-size: clamp(1.5rem, 7vw, 7rem);
   line-height: 1.0; font-weight: 900;
   color: var(--text);
   opacity: 0; animation: fadeUp 0.8s 0.4s forwards;
