@@ -1,8 +1,8 @@
 const viralVideos = [
-  { title: 'How to Improve Hip Flexibility', views: '812K+ views. 16K Likes' },
+  { title: 'How to Improve Hip Flexibility', views: '825K+ views. 32K Likes' },
   { title: 'How to Do a Split for Complete Beginners', views: '638K+ views · 37K likes', url: 'https://vt.tiktok.com/ZSCJrxcJb/' },
   { title: 'Kegel Yoga Routine', views: '465K+ views. 21k Likes' },
-  { title: 'Kegel Yoga (Beginner Focus)', views: '273K+ views · 39K likes' },
+  { title: 'Kegel Yoga (Beginner Focus)', views: '273K+ views · 29K likes' },
   { title: '2 Yoga Poses for Lower Back Pain', views: '214K+ views. 11k Likes' },
   { title: 'Yoga Poses for Back Flexibility', views: '412K+ views. 41k Likes' },
   { title: 'Yoga Poses to Improve Posture and Flexibility', views: '142K+ views. 13k Likes' },
@@ -51,7 +51,7 @@ function Services() {
             <div className="exp-role">Content Creator</div>
             <div className="exp-company">Self-Employed · 2023 – Present</div>
             <ul className="exp-points">
-              <li>Built TikTok audience of 17K+ followers and 4.5M+ views</li>
+              <li>Built TikTok audience of 18K+ followers and 5M+ views</li>
               <li>Plan, script, film, and edit short-form videos consistently</li>
               <li>Engage audience and optimise content based on performance insights</li>
               <li>Instagram: 2.1K+ followers · YouTube: 400+ subscribers</li>
@@ -72,7 +72,7 @@ function Services() {
         </div>
 
         <div className="platform-row">
-          {['TikTok — 17K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
+          {['TikTok — 18K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
             'Video Editing — CapCut & Canva', 'UGC Creation', 'Content Strategy', 'Analytics & Growth'].map(p => (
             <span className="platform-pill" key={p}>{p}</span>
           ))}
@@ -92,8 +92,8 @@ function Services() {
           Flexible scheduling, real results — from wherever you are in the world.
         </p>
         <div className="tiktok-stats">
-          <div className="tiktok-stat"><div className="tiktok-num">4.5M+</div><div className="tiktok-label">Total Views</div></div>
-          <div className="tiktok-stat"><div className="tiktok-num">15K+</div><div className="tiktok-label">TikTok Followers</div></div>
+          <div className="tiktok-stat"><div className="tiktok-num">5M+</div><div className="tiktok-label">Total Views</div></div>
+          <div className="tiktok-stat"><div className="tiktok-num">18K+</div><div className="tiktok-label">TikTok Followers</div></div>
           <div className="tiktok-stat"><div className="tiktok-num">825K+</div><div className="tiktok-label">Top Video Views</div></div>
         </div>
         <div className="yoga-grid">
