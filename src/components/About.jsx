@@ -18,7 +18,6 @@ function About() {
             </p>
           </div>
         </div>
-
         <p className="about-text">
           I hold a BSc in <span className="about-highlight">Medical Biochemistry</span> and 
           worked as a Laboratory Scientist during my NYSC. Provided accurate diagnostic results, 
