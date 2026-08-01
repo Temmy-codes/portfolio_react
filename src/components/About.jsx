@@ -14,7 +14,7 @@ function About() {
             <div className="section-label">About Me</div>
             <h2 className="section-title">God's Own ❤️</h2>
             <p className="about-text">
-              My name is Mary Esso. 
+              My name is Mary Uduak Esso.
             </p>
           </div>
         </div>
