@@ -66,27 +66,57 @@ body {
 
 /* NAV */
 nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 1.2rem 3rem;
-  background: var(--nav-bg);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-  transition: background 0.3s;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
 }
-.nav-logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.2rem; letter-spacing: 0.02em;
-  color: var(--text);
-}
-.nav-links { display: flex; gap: 2rem; align-items: center; }
-.nav-links a {
-  color: var(--gray); text-decoration: none;
-  font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase;
-  transition: color 0.3s;
-}
-.nav-links a:hover { color: var(--text); }
 
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-toggle {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: inherit;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.nav-links.open {
+  display: flex;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  color: inherit;
+}
 /* THEME TOGGLE */
 .theme-toggle {
   background: none; border: 1px solid var(--border);
