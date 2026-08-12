@@ -29,4 +29,8 @@ function Navbar({ darkMode, toggleTheme }) {
           {darkMode ? ' Light' : ' Dark'}
         </button>
       </div>
-    
+    </nav>
+  );
+}
+
+export default Navbar;
