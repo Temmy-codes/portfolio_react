@@ -21,7 +21,7 @@ function Home() {
   <a href="https://wa.me/2348061131892" target="_blank" rel="noopener noreferrer" className="btn btn-content">
     Hire Me — SMM
   </a>
-  <a href="/yoga" className="btn btn-outline">
+  <a href="https://wa.me/2348061131892" target="_blank" rel="noopener noreferrer" className="btn btn-yoga">
     Book a Yoga Class
   </a>
 </div>
