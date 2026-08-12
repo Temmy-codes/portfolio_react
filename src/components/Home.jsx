@@ -19,7 +19,7 @@ function Home() {
             Hire Me — Dev
           </a>
           <a href="#yoga" className="btn btn-outline" onClick={e => { e.preventDefault(); scrollTo('yoga'); }}>
-            Book a Yoga Class
+            Book a Yoga
           </a>
         </div>
         <div className="hero-stats">
