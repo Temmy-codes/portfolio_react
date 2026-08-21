@@ -6,7 +6,7 @@ function About() {
       <div className="about-inner">
         <div className="about-top">
           <img
-            src="https://ibb.co/QvC42wz3"
+            src="https://i.ibb.co/23sTD4m1/IMG-9489.jpg"
             alt="Mary Esso"
             className="about-img"
           />
