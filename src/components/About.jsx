@@ -6,7 +6,7 @@ function About() {
       <div className="about-inner">
         <div className="about-top">
           <img
-            src="https://www.tiktok.com/@temmy.___?_r=1&_t=ZS-994y1sTAUq4"
+            src="https://ibb.co/QvC42wz3"
             alt="Mary Esso"
             className="about-img"
           />
