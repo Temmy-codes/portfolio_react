@@ -14,18 +14,17 @@ function Home() {
           helping brands grow their online presence through strategic planning and execution.
           Three passions, one person.
         </p>
-       <div className="hero-cta">
-  <a href="https://wa.me/2348061131892" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+     <div className="hero-cta">
+  <a href="#dev" className="btn btn-primary" onClick={e => { e.preventDefault(); scrollTo('dev'); }}>
     Hire Me — Dev
   </a>
-  <a href="https://wa.me/2348061131892" target="_blank" rel="noopener noreferrer" className="btn btn-content">
+  <a href="#content" className="btn btn-content" onClick={e => { e.preventDefault(); scrollTo('content'); }}>
     Hire Me — SMM
   </a>
-  <a href="https://wa.me/2348061131892" target="_blank" rel="noopener noreferrer" className="btn btn-yoga">
+  <a href="#yoga" className="btn btn-outline" onClick={e => { e.preventDefault(); scrollTo('yoga'); }}>
     Book a Yoga Class
   </a>
 </div>
-      
         <div className="hero-stats">
           <div><div className="stat-num">5M+</div><div className="stat-label">TikTok Views</div></div>
           <div><div className="stat-num">5+</div><div className="stat-label">Live Projects</div></div>
