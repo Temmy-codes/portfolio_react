@@ -6,7 +6,7 @@ function About() {
       <div className="about-inner">
         <div className="about-top">
           <img
-            src="https://media.journoportfolio.com/users/427887/images/97be6e1c-a656-4b3e-9ef2-d7c97692beb7_max-600.jpg"
+            src="https://www.tiktok.com/@temmy.___?_r=1&_t=ZS-994y1sTAUq4"
             alt="Mary Esso"
             className="about-img"
           />
