@@ -96,17 +96,35 @@ function Services() {
           <div className="tiktok-stat"><div className="tiktok-num">18K+</div><div className="tiktok-label">TikTok Followers</div></div>
           <div className="tiktok-stat"><div className="tiktok-num">825K+</div><div className="tiktok-label">Top Video Views</div></div>
         </div>
-        <div className="yoga-grid">
-          {yogaCards.map(c => (
-            <div className="yoga-card" key={c.title}>
-              <div className="yoga-icon">{c.icon}</div>
-              <div className="yoga-card-title">{c.title}</div>
-              <p className="yoga-card-desc">{c.desc}</p>
-            </div>
-          ))}
-        </div>
-        <a href="mailto:essomary49@gmail.com" className="btn btn-yoga">Book a Class →</a>
-      </section>
+  <div className="yoga-grid">
+  {yogaCards.map(c => (
+    <div className="yoga-card" key={c.title}>
+      <div className="yoga-icon">{c.icon}</div>
+      <div className="yoga-card-title">{c.title}</div>
+      <p className="yoga-card-desc">{c.desc}</p>
+    </div>
+  ))}
+</div>
+
+<div className="yoga-booking-row">
+  <a
+    href="https://paystack.shop/pay/lfmfdq8zuc"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-yoga"
+  >
+    Book 1-on-1 (₦20,000/mo) →
+  </a>
+  <a
+    href="https://paystack.shop/pay/nk0v2klsbm"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-yoga-alt"
+  >
+    Prerecorded Plan (₦10,000/mo) →
+  </a>
+</div>
+
 
       <div className="section-divider"><span></span></div>
     </>
