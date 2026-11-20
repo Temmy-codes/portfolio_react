@@ -31,7 +31,7 @@ function About() {
         <p className="about-text">
           As a <span className="about-highlight">Content Creator & Social Media Strategist</span>, 
           I grow brands through short-form  and long-form video, content strategy, and community building, 
-          running my own brand, “Yoga with Temmy,” to 18K+ followers on TikTok while managing content calendars 
+          running my own brand, “Yoga with Temmy,” to 20K+ followers on TikTok while managing content calendars 
           and campaigns for others-form videos that help brands and individuals grow authentically.
         </p>
         <p className="about-text">
