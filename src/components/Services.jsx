@@ -26,7 +26,17 @@ function Services() {
           From strategy to execution — I manage social media, produce UGC, and create
           short-form video content that drives real engagement and growth.
         </p>
-
+        
+        <div className="content-exp-card">
+            <div className="exp-role">Social Media Manager | Video Content Creator & Editor</div>
+            <div className="exp-company">Cybervilla · Sept 2026 – Oct 2026</div>
+            <ul className="exp-points">
+              <li> Create, edit and publish short-form videos across five pillars: New Arrivals & Deals, Repair Tips &
+                 Device Care, Behind-the-Scenes, Customer Reviews & Unboxings, and Tech Education </li>
+              <li> Manage the brand’s social media presence and review monthly analytics to optimise performance </li>
+              <li> Gained 100+ new followers and 59.5K Instagram profile views in the first month</li>
+            </ul>
+          </div>
         <div className="content-exp-grid">
           <div className="content-exp-card">
             <div className="exp-role">Social Media Manager</div>
@@ -51,7 +61,7 @@ function Services() {
             <div className="exp-role">Content Creator</div>
             <div className="exp-company">Self-Employed · 2023 – Present</div>
             <ul className="exp-points">
-              <li>Built TikTok audience of 18K+ followers and 5M+ views</li>
+              <li>Built TikTok audience of 20K+ followers and 5M+ views</li>
               <li>Plan, script, film, and edit short-form videos consistently</li>
               <li>Engage audience and optimise content based on performance insights</li>
               <li>Instagram: 2.1K+ followers · YouTube: 400+ subscribers</li>
@@ -72,7 +82,7 @@ function Services() {
         </div>
 
         <div className="platform-row">
-          {['TikTok — 18K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
+          {['TikTok — 20K+ followers', 'Instagram — 2.1K+ followers', 'YouTube — 400+ subscribers',
             'Video Editing — CapCut & Canva', 'UGC Creation', 'Content Strategy', 'Analytics & Growth'].map(p => (
             <span className="platform-pill" key={p}>{p}</span>
           ))}
